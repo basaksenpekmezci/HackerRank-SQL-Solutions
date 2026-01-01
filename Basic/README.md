@@ -1,1 +1,1 @@
-Bu klasör HackerRank SQL Basic çözümlerini içerir.
+##Bu klasör HackerRank SQL Basic çözümlerini içerir.
