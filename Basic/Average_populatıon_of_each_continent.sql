@@ -6,7 +6,8 @@ and their respective average city populations (CITY.Population) rounded down to 
 Note: CITY.CountryCode and COUNTRY.Code are matching key columns.
 */
 
-SELECT COUNTRY.CONTINENT, FLOOR((AVG(CITY.POPULATION)))
+SELECT COUNTRY.CONTINENT, 
+  FLOOR((AVG(CITY.POPULATION)))
 FROM COUNTRY
 INNER JOIN CITY
 ON CITY.COUNTRYCODE=COUNTRY.CODE
